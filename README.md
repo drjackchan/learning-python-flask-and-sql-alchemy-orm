@@ -1,4 +1,4 @@
-#Python API Development Fundamentals
+# Python API Development Fundamentals
 
 Python is a flexible language that can be used for much more than just script development. By knowing how the Python RESTful APIs work, you can build a powerful backend for web applications and mobile applications using Python.
 
@@ -6,7 +6,7 @@ You'll take your first steps by building a simple API and learning how the front
 
 By the end of this course, you'll have the confidence and skill to leverage the power of RESTful APIs and Python to build efficient web applications.
 
-#What you will learn
+# What you will learn
 
 Understand the concept of a RESTful API
 Build a RESTful API using Flask and the Flask-Restful extension
@@ -17,7 +17,7 @@ Use cache to improve API performance and efficiently obtain the latest informati
 Deploy an application to Heroku and test it using Postman
 The examples of this title has been implemented in the Windows/MAC/Linux operating system.
 
-#Software Requirement
+# Software Requirement
 
 We also recommend that you have the following software installed in advance:
 
