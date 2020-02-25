@@ -42,7 +42,7 @@ PyCharm is a professional Python IDE (Integrated Development Environment) develo
 
 # Who are the instructors?
 
-Jack comes from a software engineering background. He has built sophisticated systems for top tier investment banks. You can understand more about the instructor in their Udemy profile. 
+Jack comes from a software engineering background. He has built sophisticated systems for top tier investment banks. You can understand more about the instructor in their [Udemy profile](http://bit.ly/jackudemy). 
 
 Instructor: Jack Chan  
 Course Designer: Raymond Chung
