@@ -1,5 +1,3 @@
-[Enroll in the course Learning Python Flask and SQL Alchemy ORM](http://bit.ly/FlaskORM)
-
 # Learning Python Flask and SQL Alchemy ORM - Building your first web application 'Lucky Draw' with Python, Flask & SQLAlchemy
 
 The best way to demonstrate your programming skill is to build a web application. A web application can be run by any computer or mobile device. With nowaday technology, a web application can run as fast as native application. In this course, we will show you how you can kick start your first web application, using Python Flask framework as the frontend and SQL Alchemy ORM to interactive with the backend database. 
@@ -41,3 +39,16 @@ Flask is a micro web framework written in Python. It is classified as a mic
 # What is PyCharm?
 
 PyCharm is a professional Python IDE (Integrated Development Environment) developed by Jetbrains. It has a free community edition and which is more than good enough for this course. It is a powerful IDE that can significantly improve the development efficiency by providing project management, syntax highlight, syntax suggestion and version control.
+
+# Who are the instructors?
+
+Jack comes from a software engineering background. He has built sophisticated systems for top tier investment banks. You can understand more about the instructor in their Udemy profile. 
+
+Instructor: Jack Chan
+Course Designer: Raymond Chung
+
+# Money back guaranteed!
+
+We are so confident about our course. We are so sure that you will enjoy the course as well. Therefore we provide money back guaranteed. After you have enrolled the course and if you don't like it, you can have your money back! It is unconditional, Udemy backed, 30 days money-back guarantee so you can try this course risk free!
+
+[Sign up](http://bit.ly/FlaskORM) for our course today, and let's kick start your first web application together!
