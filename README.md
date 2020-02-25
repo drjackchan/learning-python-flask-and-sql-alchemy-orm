@@ -28,13 +28,13 @@ You can also take this chance to revise important programming concept in Python.
 
 Python is a simple, intuitive, yet powerful programming language. It is an high-level programming language invented back in 1991. It is a go-to language for beginners because it is so easy and expressive. You can often express concepts with very few lines of code. That's why we choose Python as the programming language for this course!
 
-However, don't have a misunderstanding that Python is only for beginner. It is used in many areas including data analysis, finance, scientific research, artificial intelligence etc. Python is a very powerful programming language and is well supported the community. There are lots of useful packages like Numpy, Scipy etc. It is a programming language that supports multiple programming paradigms like procedural, functional, object-oriented etc. 
+However, don't have a misunderstanding that Python is only for beginner. It is used in many areas including data analysis, finance, scientific research, artificial intelligence etc. Python is a very powerful programming language and is well supported the community. There are lots of useful packages like Numpy, Scipy etc. It is a programming language that supports multiple programming paradigms like procedural, functional, object-oriented etc. 
 
-In a nutshell, if you can only learn one programming language, Python is your choice! And if you are a beginner and you want to grab the basics before taking this course, we recommend you to enroll our python beginner course - Learn Python in a Day. You can find the course under our profile. 
+In a nutshell, if you can only learn one programming language, Python is your choice! And if you are a beginner and you want to grab the basics before taking this course, we recommend you to enroll our python beginner course - [Learn Python in a Day](http://bit.ly/pythonDay). You can find the course under our profile. 
 
 # What is Flask?
 
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It supports extensions that can add application features and making the web applications built on Flask more powerful. Extensions are updated far more regularly than the core Flask program. In this course, we will cover Flask as well as other necessary extensions that are required to build this production grade party web platform. Flask is commonly used with MongoDB (which we will cover in this course as well), allowing it more control over databases and history.
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It supports extensions that can add application features and making the web applications built on Flask more powerful. Extensions are updated far more regularly than the core Flask program. In this course, we will cover Flask as well as other necessary extensions that are required to build this production grade party web platform. Flask is commonly used with MongoDB (which we will cover in this course as well), allowing it more control over databases and history.
 
 # What is PyCharm?
 
