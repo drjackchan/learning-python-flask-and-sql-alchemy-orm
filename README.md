@@ -1,11 +1,10 @@
-# Learning Python Flask and SQL Alchemy ORM
-## Building your first web application 'Lucky Draw' with Python, Flask & SQLAlchemy
+# Learning Python Flask and SQL Alchemy ORM - Building your first web application 'Lucky Draw' with Python, Flask & SQLAlchemy
 
 The best way to demonstrate your programming skill is to build a web application. A web application can be run by any computer or mobile device. With nowaday technology, a web application can run as fast as native application. In this course, we will show you how you can kick start your first web application, using Python Flask framework as the frontend and SQL Alchemy ORM to interactive with the backend database. 
 
 Programming is one of the very important skills that people value a lot in this era. Not only it can help you get a well-paid software engineer job, but it can also train your brain to think in a logically manner. We are sure you agree with that but you are not sure where and how to start. You may already know some basics about programming, which is good, but you may think that is another level to build a useful application by yourself. Don't worry, in this course, we will guide you how to create your first python web application step by step. You may become the next Jeff Bazos or Mark Zuckerburg!
 
-Why is this course for me?
+# Why is this course for me?
 
 If you want to learn about Python, this course is for you! Python is simple yet powerful. It is widely used by tech giants like Google, Youtube, Dropbox etc.
 
