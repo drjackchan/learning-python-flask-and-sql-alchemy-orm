@@ -118,7 +118,7 @@ def history():
 
 @app.route('/top')
 def top():
-    restaurants = Restaurants.query.order_by('-draw').limit(5)
+    restaurants = Restaurants.query.order_by(desc(Restaurants.draw)).limit(5)
 
     return render_template('top.html', nav='top', restaurants=restaurants)
 
@@ -143,4 +143,4 @@ app.jinja_env.filters['datetime'] = datetimeformat
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5001)
