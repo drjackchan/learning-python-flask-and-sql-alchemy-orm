@@ -4,9 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 import os
 from dotenv import load_dotenv
 
-if (os.environ.get("POSTGRES_URL") is None):
-    load_dotenv()
-
 print('Connecting to database...')
 
 # for sqlite connection
