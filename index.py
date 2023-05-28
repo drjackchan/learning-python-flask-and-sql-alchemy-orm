@@ -8,6 +8,7 @@ from random import choice
 
 app = Flask(__name__)
 
+#
 # 
 # @app.before_first_request
 # 
