@@ -8,13 +8,19 @@ from random import choice
 
 app = Flask(__name__)
 
-@app.before_first_request
-def init():
-    init_db()
+# 
+# @app.before_first_request
+# 
+# def init():
+# 
+#     init_db()
+# 
 
-@app.teardown_appcontext
-def shutdown_session(exception=None):
-    db_session.remove()
+# 
+# @app.teardown_appcontext
+# 
+# def shutdown_session(exception=None):
+#     db_session.remove()
 
 
 @app.route('/')
@@ -136,7 +142,6 @@ def mealformat(value):
 
 def datetimeformat(value):
     return value.strftime('%Y-%m-%d %H:%M:%S')
-
 
 app.jinja_env.filters['meal'] = mealformat
 app.jinja_env.filters['datetime'] = datetimeformat
