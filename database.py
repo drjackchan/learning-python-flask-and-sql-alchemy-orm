@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 if (os.environ.get("POSTGRES_URL") is None):
     load_dotenv()
 
+print('Connecting to database...')
+
 # for sqlite connection
 # current_dir = os.path.dirname(__file__)
 # engine = create_engine('sqlite:////{}/luckydraw.db'.format(current_dir), convert_unicode=True)
@@ -18,8 +20,6 @@ db_session = scoped_session(sessionmaker(autocommit=False,
                                          bind=engine))
 Base = declarative_base()
 Base.query = db_session.query_property()
-
-print('Connecting to database...')
 
 def init_db():
     Base.metadata.create_all(bind=engine)
