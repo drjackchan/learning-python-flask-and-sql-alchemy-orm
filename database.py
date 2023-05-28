@@ -4,8 +4,9 @@ from sqlalchemy.ext.declarative import declarative_base
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-
+if (os.environ.get("POSTGRES_URL") is None):
+    load_dotenv()
+    
 current_dir = os.path.dirname(__file__)
 
 # for sqlite connection
@@ -13,14 +14,6 @@ current_dir = os.path.dirname(__file__)
 
 # for postgresql connection
 engine = create_engine(os.environ.get("POSTGRES_URL"), convert_unicode=True)
-
-#
-# engine = conn = psycopg2.connect(
-#     host=os.environ.get("POSTGRES_HOST"),
-#     database=os.environ.get("POSTGRES_DATABASE"),
-#     user=os.environ.get("POSTGRES_USER"),
-#     password=os.environ.get("POSTGRES_PASSWORD"))
-###
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
