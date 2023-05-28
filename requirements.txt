@@ -38,6 +38,7 @@ google-crc32c==1.5.0
 google-gax==0.15.16
 google-resumable-media==2.5.0
 googleapis-common-protos==1.59.0
+greenlet==2.0.2
 grpc-google-iam-v1==0.11.4
 grpcio==1.54.2
 httplib2==0.22.0
@@ -53,16 +54,19 @@ proto-google-cloud-error-reporting-v1beta1==0.15.3
 proto-google-cloud-logging-v2==0.91.3
 protobuf==3.20.3
 psutil==5.9.5
+psycopg2-binary==2.9.6
 py-bcrypt==0.4
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pymongo==4.3.3
 pyparsing==3.0.9
+python-dotenv==1.0.0
 pytz==2023.3
 requests==2.31.0
 rsa==4.9
 six==1.16.0
 SQLAlchemy==1.4.48
+typing-extensions==4.6.2
 urllib3==2.0.2
 Werkzeug==2.3.4
 WTForms==3.0.1
