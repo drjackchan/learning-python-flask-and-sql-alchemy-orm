@@ -10,7 +10,7 @@ print('Connecting to database...')
 # engine = create_engine('sqlite:////{}/luckydraw.db'.format(current_dir), convert_unicode=True)
 
 # for postgresql connection
-engine = create_engine(os.environ.get("POSTGRES_URL"), convert_unicode=True)
+engine = create_engine(os.environ.get("POSTGRESQL_URL"), connect_args={'sslmode': "allow"})
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
