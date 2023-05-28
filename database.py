@@ -6,10 +6,9 @@ from dotenv import load_dotenv
 
 if (os.environ.get("POSTGRES_URL") is None):
     load_dotenv()
-    
-current_dir = os.path.dirname(__file__)
 
 # for sqlite connection
+# current_dir = os.path.dirname(__file__)
 # engine = create_engine('sqlite:////{}/luckydraw.db'.format(current_dir), convert_unicode=True)
 
 # for postgresql connection
@@ -20,6 +19,7 @@ db_session = scoped_session(sessionmaker(autocommit=False,
 Base = declarative_base()
 Base.query = db_session.query_property()
 
+print('Connecting to database...')
 
 def init_db():
     Base.metadata.create_all(bind=engine)
