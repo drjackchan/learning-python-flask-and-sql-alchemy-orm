@@ -2,3 +2,4 @@ venv/
 luckydraw.db
 .idea
 .env
+.vercel
