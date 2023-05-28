@@ -141,6 +141,7 @@ def datetimeformat(value):
 app.jinja_env.filters['meal'] = mealformat
 app.jinja_env.filters['datetime'] = datetimeformat
 
-if __name__ == '__main__':
-    app.jinja_env.auto_reload = True
-    app.run(host='0.0.0.0', port=5001)
+# no need the below to run on vercel server
+# if __name__ == '__main__':
+#    app.jinja_env.auto_reload = True
+#    app.run(host='0.0.0.0', port=5001)
